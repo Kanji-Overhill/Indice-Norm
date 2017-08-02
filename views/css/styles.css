@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700,900');
+
+body, input{
+	font-family: 'Titillium Web', sans-serif;
+}
+.login-section .row .col-md-3 img{
+	margin-bottom: 10px;
+}
+.login-section .row{
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 69.8vh;
+}
+.login-section .row label{
+	font-weight: bold;
+	font-size: 1.2rem
+}
+.login-section .row input[type="submit"]{
+	width: 100%;
+	padding: 6px;
+	background: white;
+	text-align: center;
+	border:2px solid #2f8da9;
+	color: #2f8da9;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 1.2rem;
+	transition: all .3s;
+}
+.login-section .row input[type="submit"]:hover{
+	color: white;
+	background-color: #2f8da9;
+}
+.indice-header .row{
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+.indice-header h1{
+	text-align: center;
+}
+.indice-header .col-6{
+	background: #009eff;
+	color: white;
+}
+footer{
+	background-color: #2f8da9;
+	color: #ffffff;
+	text-align: center;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	color: white
+}
+footer p{
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+}
+.indice-main{
+	align-items: center;
+}
+.indice-main .row:first-child{
+	justify-content: space-around;
+	align-items: center;
+	min-height: 69.8vh
+}
+.indice-main .row a{
+	text-align: center;
+	font-size: 1.1rem;
+}
+.indice-marketing .row{
+	justify-content: center;
+	align-items: center;
+}
+.indice-marketing h2{
+	margin-top: 55px;
+	margin-bottom: 55px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.indice-marketing .col-4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.indice-marketing .col-4 img{
+	max-width: 150px;
+}
